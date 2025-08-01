@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>PetaCare Android App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0270BF, #87D4EB);
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+
+    .download-button {
+      background-color: #ffffff;
+      color: #1a1a1a;
+      padding: 12px 28px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #e0e0e0;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #ffffffcc;
+    }
+  </style>
 </head>
 <body>
+  <img class="logo" src="petacare_logo.webp" alt="PetaCare Logo">
   <h1>Welcome to PetaCare</h1>
-  <p>Download the app below:</p>
-  <a href="petacare" download>Download APK</a>
+  <p>Manage your pet’s health and appointments in one place.</p>
+  <a class="download-button" href="petacare.apk" download>📱 Download Android APK</a>
+  <footer>© 2025 PetaCare</footer>
 </body>
 </html>
